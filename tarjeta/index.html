@@ -8,35 +8,71 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <article>
-      <h2>DorianDesings</h2>
-      <p>
+    <article class="card">
+      <h2 class="card__title">DorianDesings</h2>
+      <p class="card__text">
         Apasionado de las nuevas tecnologías y en especial de CSS y JS. Mi propósito es trasladar mi
         pasión por enseñar a todos aquellos que quieran aprender de una forma actualizada.
       </p>
-      <img src="assets/images/dorian.png" alt="" />
-      <ul>
-        <li>
+      <img src="assets/images/dorian.png" alt="" class="card__image"/>
+      <ul class="social-icons">
+        <li class="social-icons__item">
           <a href="https://www.twitch.tv/doriandesings">
-            <img src="assets/images/twitch-logo.png" alt="twitch logo" />
+            <img src="assets/images/twitch-logo.png" 
+            alt="twitch logo" 
+            class="social-icons__icon"/>
           </a>
         </li>
-        <li>
+        <li class="social-icons__item">
           <a href="https://www.instagram.com/dorian_desings/?hl=es">
-            <img src="assets/images/instagram-logo.png" alt="instagram logo" />
+            <img src="assets/images/instagram-logo.png" 
+            alt="instagram logo" 
+            class="social-icons__icon"/>
           </a>
         </li>
-        <li>
+        <li class="social-icons__item">
           <a href="https://twitter.com/home?lang=es">
-            <img src="assets/images/twitter-logo.png" alt="twitter logo" />
+            <img src="assets/images/twitter-logo.png" 
+            alt="twitter logo" 
+            class="social-icons__icon"/>
           </a>
         </li>
-        <li>
+        <li class="social-icons__item">
           <a href="https://www.youtube.com/c/DorianDesings/?sub_confirmation=1">
-            <img src="assets/images/youtube-logo.png" alt="twitch logo" />
+            <img src="assets/images/youtube-logo.png" alt="twitch logo" 
+            class="social-icons__icon"/>
           </a>
         </li>
       </ul>
     </article>
   </body>
 </html>
+
+
+<!-- 
+CLASES DEL HTML, PASOS:
+- La tarjeta es un bloque (elemento autonomo reutilizable), por lo tanto al article le doy una clase: card.
+- El h2, el parrafo y la img, son elementos que conforman nuestro bloque (nuestra tarjeta). Sus clases seran: card__title / card__text / card__image.
+- Luego vienen las redes sociales, que es un elemento que puede ser reutilizable en cualquier otra parte de la web, por lo tanto se convierte en un bloque. El cual le dare la clase: social-icons.
+- Los elementos que conforman el bloque social son el li y el ancla. Que tendra las respectivas clases: li class="social-icons__item" / a class="social-icons__icon"
+
+BLOQUES:
+- Tenemos 2 bloques: 
+  - bloque: card.
+  - bloque social: social-icons.
+
+ELEMENTOS:
+- Estos bloques tienen a su vez elementos que los componen:
+  - card:
+    - card__title
+    - card__text
+    - card__image
+  - social-icons:
+    - social-icons__item
+    - social-icons__icon
+
+  
+MODIFICADORES ETAPA_1: 
+- Solo voy a poner un modificado en la tarjeta que sera: card--blue. Ya que esta otra tarjeta solo le va a cambiar el BGC.
+*-> paso1: hagamos la primera tarjeta.
+  -->

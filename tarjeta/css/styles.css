@@ -12,3 +12,43 @@ ul {
 a {
   text-decoration: none;
 }
+
+.card{
+  position: relative;
+  width: 290px;
+  height: 190px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card__title{
+  font-size: 1rem;
+  padding: 10px 0px 0px 10px;
+}
+
+.card__text{
+  font-size: 0.6rem;
+  width: 145px;
+  padding-left: 10px;
+}
+
+.card__image{
+  position: absolute;
+  width: 110px;
+  bottom: 0;
+  right: 10px;
+}
+
+.social-icons{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.social-icons__item{
+  display: inline-block;
+}
+
+.social-icons__icon{
+  width: 25px;
+}
