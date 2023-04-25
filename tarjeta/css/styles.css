@@ -21,6 +21,10 @@ a {
   border-radius: 10px;
 }
 
+.card--blue{
+  background-color: lightblue;
+}
+
 .card__title{
   font-size: 1rem;
   padding: 10px 0px 0px 10px;
@@ -37,6 +41,10 @@ a {
   width: 110px;
   bottom: 0;
   right: 10px;
+}
+
+.card__image--big{
+  width: 150px;
 }
 
 .social-icons{
